@@ -1,0 +1,42 @@
+#a1{
+    color: rgb(37, 11, 233);
+    text-align: center;
+}
+#a2{
+    color: rgb(81, 25, 237);
+    font-size: larger;
+
+text-align: center;
+}
+#a3{
+    color: rgb(75, 29, 228);
+}
+#a4{
+    color: rgb(23, 29, 195);
+   text-align: center;
+}
+
+
+body {
+    background-image: url("grey\ background.jpg#");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    }
+    #A1{
+        text-align: center;
+    }
+    #A2{
+        color: brown;
+        background-color: aqua;
+
+    }
+    #A3{
+        color:brown;
+        background-color:aqua;
+    }
+    #A4{
+        color: brown;
+        background-color: aqua;
+    }
