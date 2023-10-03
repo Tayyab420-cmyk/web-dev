@@ -1,0 +1,30 @@
+.box{
+    background-color: rgb(63, 178, 140);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    flex: 1 1 300px;
+}
+
+.flex-container{
+    background-color: rgb(255, 157, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;   
+
+  
+}
+.box3{
+  
+  align-content: start;
+    background-color: aqua;
+
+}
+.box7{
+
+    align-content: start;
+      background-color: aqua;
+      
+}
