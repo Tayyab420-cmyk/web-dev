@@ -1,0 +1,36 @@
+body{
+    height: 95vh;
+    display: grid;
+    grid-template-areas: "head head"
+    "nav main"
+    "footer footer";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 150px 1fr;
+    color: aqua;
+    font-size: 2em;
+    grid-gap: 10px;
+}
+.header {
+    grid-area: head;
+    background: green;
+    text-align: center;
+    padding: 2em;
+}
+.nav{
+    grid-area: nav;
+    background-color: aqua;
+    text-align: center;
+
+}
+.main{
+    grid-area: main;
+    background: bisque;
+    text-align: center;
+    padding: 2em;
+}
+.footer{
+    grid-area: footer;
+    background: blueviolet;
+    text-align: center;
+    padding: 2em;
+}

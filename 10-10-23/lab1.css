@@ -1,0 +1,61 @@
+body{
+    height: 95vh;
+display: grid;
+grid-template-rows: 1fr auto 1fr;
+grid-gap: 10px;
+color: rgb(26, 18, 12);
+font-size: 2em;
+}
+header{
+    background: rgb(40, 216, 96);
+    text-align: center;
+    padding: 2em;
+}
+main{
+    background: rgb(0, 128, 21);
+    text-align: center;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 5px;
+
+}
+footer{
+    background: rgb(185,0,50);
+    text-align: center;
+    padding: 2em;
+
+}
+.boxa{
+    background-color: aqua;
+    padding: 2em;
+    height: 100px;
+    width: 100px;
+    
+}
+.boxb{
+    background-color: brown;
+    padding: 2em;
+
+}
+.boxc{
+    background-color: cadetblue;
+    padding: 2em;
+
+}
+.boxd{
+    background-color: cornflowerblue;
+    padding: 2em;
+
+}
+.boxe{
+    background-color: rgb(131, 171, 131);
+    padding: 2em;
+}
+.boxf{
+    background-color: darkcyan ;
+    padding: 2em;
+   
+}
