@@ -9,7 +9,7 @@ font-size: 2em;
 }
 .A{
     
-   background-color:aliceblue;
+   background-color:white;
     padding-left: 10px;
 }
 .A1{
@@ -26,21 +26,22 @@ font-size: 2em;
 .B{
     display: grid;
     justify-content: right;
-    background-color:rgb(16, 17, 17);
+    background-color:white;
     grid-gap: 10px;
     padding: auto;
+    
 }
 main{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
-   background-color: rgb(78, 78, 75);
+   background-color:white;
     grid-gap: 10px;
    
 
 }
 .a{
-    background-color:dimgray;
+    background-color:rgb(229, 221, 221);
    
     width: 400px;
     height: 300px;
@@ -57,12 +58,12 @@ font-size: 20px;
 .c{
     background-color: gray;
    padding: 1em;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
 }
 .d{
     background-color: gray;
     padding: 1em;
     width: 400px;
-    height: 300px;
+    height: 200px;
 }
