@@ -13,5 +13,5 @@
         transform: translate3d(0 , 0 , 0);
     } 
     to {
-        transform: translate3d(640px , 640px , 640px);
+        transform: translate3d(640px , 6px , 6px);
     }
