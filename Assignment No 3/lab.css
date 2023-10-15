@@ -8,16 +8,25 @@ color: rgb(26, 18, 12);
 font-size: 2em;
 }
 .A{
-    display: grid;
-   
-    padding-left: 10px;
     
+   background-color:aliceblue;
+    padding-left: 10px;
+}
+.A1{
 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+
+
+
+ 
 }
 .B{
     display: grid;
     justify-content: right;
-    background-color:darkslategrey;
+    background-color:rgb(16, 17, 17);
     grid-gap: 10px;
     padding: auto;
 }
@@ -25,8 +34,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
-    text-align: center;
-    justify-content: center;
+   background-color: rgb(78, 78, 75);
     grid-gap: 10px;
    
 
@@ -37,6 +45,8 @@ main{
     width: 400px;
     height: 300px;
     padding: 1em;
+font-size: 20px;
+
 }
 .b{
     background-color: gray;
