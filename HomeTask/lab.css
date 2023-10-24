@@ -12,7 +12,7 @@ body {
 
 }
 nav{
-    background: #0082e6;
+    background: #215b88;
     height: 80px;
     width: 100%;
 
@@ -38,14 +38,17 @@ nav ul li{
 
 }
 nav ul li a{
-    color: aqua;
+    color: rgb(215, 117, 31);
     font-size: 17px;
     text-transform: uppercase;
 
 }
 a.active,a:hover{
-    background: #1b9bff;
+    background:white;
     transition: .5s;
+    color: aqua;
+    border-radius: 5px;
+    transform: scale(1.25);
 }
 @media (max-width:952px){
     label.logo{
