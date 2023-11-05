@@ -1,6 +1,5 @@
 body{
     background-image: url(7LVg0KiH0gH.png);
-   background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(15, 14, 14);
 }
@@ -15,7 +14,7 @@ body{
 }
 #font{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
+  font-size: large;
   color:white;
   
 }
@@ -66,6 +65,24 @@ body{
     cursor:not-allowed;
     border-radius: 10px;
   }
+  .bar{
+    display: flex;
+    height: 180px;
+    justify-content: right;
+    margin-right: 1%;
+
+  }
+  footer {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .foot{
+    color: gray;
+  }
+ 
+    
+
+ 
 
  
  
