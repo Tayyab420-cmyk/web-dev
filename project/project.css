@@ -2,6 +2,7 @@ body{
     background-image: url(7LVg0KiH0gH.png);
     background-repeat: no-repeat;
     background-color: rgb(15, 14, 14);
+    background-size: 100% ;
 }
 .head{
   display: flex;
@@ -13,9 +14,9 @@ body{
   
 }
 #font{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
-  color:white;
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
   
 }
 .middle {
@@ -70,6 +71,8 @@ body{
     height: 180px;
     justify-content: right;
     margin-right: 1%;
+    overflow: hidden;
+    transition: width 0.3s ease height 0.3s ease;
 
   }
   footer {
