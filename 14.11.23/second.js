@@ -50,29 +50,60 @@
 // console.log("the value is nor numerical");
 // }
 
-var name="sunday";
-switch(name){
-    case 'Monday':
-        console.log("Do something");
-    break;
-    case 'Tuesday':
-        console.log("Do something else");
-        break;
-        case 'Wednesday':
-            console.log("Do another thing");
-            break;
-            case 'Thursday':
-                console.log("Do one more thing");
+// var name="sunday";
+// switch(name){
+//     case 'Monday':
+//         console.log("Do something");
+//     break;
+//     case 'Tuesday':
+//         console.log("Do something else");
+//         break;
+//         case 'Wednesday':
+//             console.log("Do another thing");
+//             break;
+//             case 'Thursday':
+//                 console.log("Do one more thing");
+//                 break;
+//                 case 'Friday':
+//                     console.log("Do the last thing");
+//                     break;
+//                     case 'Saturday':
+//                         console.log("Do nothing");
+//                         break;
+//                         case 'sunday':
+//                             console.log("Do nothing");
+//                             break;  
+//                             default:
+//                                 console.log("This day does not exist");
+//                                 }
+// for(var i=0;i<10;i++){
+//     console.log(i);
+// }
+//var counter=3;
+//while(counter>0){
+//     console.log(counter);
+//     counter=counter-1;
+// }
+
+// for(var i=0; i<2; i++){
+//     for(var j=1; j<=7; j++){
+//         console.log("week " + i + " day " + j);
+//     }
+// }
+var counter=1;
+for(var i=1;i<=5;i++)
+{
+    switch(i){
+            case 1:
+                console.log("this is first floor");
                 break;
-                case 'Friday':
-                    console.log("Do the last thing");
+                case 2:
+                    console.log("this is second floor");
                     break;
-                    case 'Saturday':
-                        console.log("Do nothing");
+                    case 3:
+                        console.log("this is third floor");
                         break;
-                        case 'sunday':
-                            console.log("Do nothing");
-                            break;  
                             default:
-                                console.log("This day does not exist");
-                                }
+                                console.log(i);
+        }
+}
