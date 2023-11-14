@@ -33,19 +33,46 @@
 //                     default:
 //                         console.log("unknown floor");
 // }
-var age=65;
-if(age>=65)
-{
-    console.log("You get your income from pension");
+// var age=65;
+// if(age>=65)
+// {
+//     console.log("You get your income from pension");
 
-}
-else if(age<65 && age>18){
-    console.log("Each month you get a salary");
+// }
+// else if(age<65 && age>18){
+//     console.log("Each month you get a salary");
 
-}
-else if(age<18){
-    console.log("You get an allowance");
-}
-else{
-console.log("the value is nor numerical");
-}
+// }
+// else if(age<18){
+//     console.log("You get an allowance");
+// }
+// else{
+// console.log("the value is nor numerical");
+// }
+
+var name="sunday";
+switch(name){
+    case 'Monday':
+        console.log("Do something");
+    break;
+    case 'Tuesday':
+        console.log("Do something else");
+        break;
+        case 'Wednesday':
+            console.log("Do another thing");
+            break;
+            case 'Thursday':
+                console.log("Do one more thing");
+                break;
+                case 'Friday':
+                    console.log("Do the last thing");
+                    break;
+                    case 'Saturday':
+                        console.log("Do nothing");
+                        break;
+                        case 'sunday':
+                            console.log("Do nothing");
+                            break;  
+                            default:
+                                console.log("This day does not exist");
+                                }
