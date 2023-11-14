@@ -79,8 +79,8 @@
 // for(var i=0;i<10;i++){
 //     console.log(i);
 // }
-//var counter=3;
-//while(counter>0){
+// var counter=3;
+// while(counter>0){
 //     console.log(counter);
 //     counter=counter-1;
 // }
@@ -90,20 +90,40 @@
 //         console.log("week " + i + " day " + j);
 //     }
 // }
-var counter=1;
-for(var i=1;i<=5;i++)
-{
-    switch(i){
-            case 1:
-                console.log("this is first floor");
-                break;
-                case 2:
-                    console.log("this is second floor");
-                    break;
-                    case 3:
-                        console.log("this is third floor");
-                        break;
-                            default:
-                                console.log(i);
-        }
-}
+// var counter=1;
+// for(var i=1;i<=5;i++)
+// {
+//     switch(i){
+//             case 1:
+//                 console.log("this is first floor");
+//                 break;
+//                 case 2:
+//                     console.log("this is second floor");
+//                     break;
+//                     case 3:
+//                         console.log("this is third floor");
+//                         break;
+//                             default:
+//                                 console.log(i);
+//         }
+// }
+
+// function addtwonum(){
+//     var a=10;
+//     var b=10;
+//     var c=a+b;
+//     console.log(c);
+// }
+// addtwonum();
+
+ 
+// function listarrayitems(arr){
+// for(var i=0; i<arr.length;i++){
+//     console.log(arr[i]);
+// }
+// }
+// var colors=['red','blue','green','pink'];
+// var train=["wheat","bentley","Audi","Civic"];
+// listarrayitems(colors);
+// listarrayitems(train);
+
