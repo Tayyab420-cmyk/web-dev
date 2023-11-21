@@ -28,24 +28,24 @@
 // console.log(clothes);
 // console.log(clothes[3]);
 
-var car={};
-car.favcar="blue";
-car.speed=200;
-car.convertible=true;
-console.log(car);
-car.turnthekey=function(){
-    console.log("the engine is running");
-}
-car.lightson=function(i){
-    if (i==1) {
-        console.log("headlights are on");
-    }else{
-        console.log("headlights are off");
-    }
+// var car={};
+// car.favcar="blue";
+// car.speed=200;
+// car.convertible=true;
+// console.log(car);
+// car.turnthekey=function(){
+//     console.log("the engine is running");
+// }
+// car.lightson=function(i){
+//     if (i==1) {
+//         console.log("headlights are on");
+//     }else{
+//         console.log("headlights are off");
+//     }
     
-}
-console.log(car);
-car.turnthekey();
-car.lightson(0);
+// }
+// console.log(car);
+// car.turnthekey();
+// car.lightson(0);
 
 
