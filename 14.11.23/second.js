@@ -107,7 +107,7 @@
 //                                 console.log(i);
 //         }
 // }
-
+//function
 // function addtwonum(){
 //     var a=10;
 //     var b=10;
@@ -126,4 +126,44 @@
 // var train=["wheat","bentley","Audi","Civic"];
 // listarrayitems(colors);
 // listarrayitems(train);
+//objects
+// var table={
+//     legs:3,
+//     color:"brown",
+//     priceUSD:100,
+// }
+// console.log(table);
+// console.log(table.color);
 
+// var car={};
+// car.color="red";
+// car["color"]="green";
+// car["speed"]=200;
+// car.speed=100;
+// console.log(car);
+
+// var arrofkey=['speed','altitude','color'];
+// var drone={
+//     speed:500,
+//     altitude:8000,
+//     color:'black'
+
+// }
+// for(var i=0;i<arrofkey.lenght;i++){
+//     console.log(drone[arrofkey[i]]);
+// }
+// var fruits=[];
+// fruits.push('apple');
+// fruits.push('banana');
+// fruits.pop();
+//console.log(fruits);
+
+function arraybuilder(one,two,three){
+    var arr=[];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return arr;
+}
+var simpleArr=arraybuilder('apple','banana','blue');
+console.log(simpleArr);
