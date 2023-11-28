@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <input id="todo-title" type="text" />
+    <button onclick="addTodo()">Add Todo</button>
+    <div id="todo-list"></div>
+    <script>
+         let todos =[{
+            title: "Buy Groceries",
+            duedate:'2021-10-23'
+            },{
+                title: "wash car",
+                duedate:"2021-10-24"
+                },{
+                    title: "clean house",
+                    duedate:"2021-10-25"
+                    }];
+          
+
+         
+        // todos.forEach(function (todoTitle){
+        //     let element=document.createElement('div');
+        //     element.textContent=todoTitle;
+        //     document.body.appendChild(element);
+        // });
+        render();
+        
+        
+        
+        function addTodo(){
+            console.log('amish')
+            let textbox = document.getElementById('todo-title');
+            let title=textbox.value;
+            todos.push(title);
+            render();
+        }
+
+
+            function render(){
+                document.getElementById('todo-list').innerHTML='';
+
+
+            todos .forEach(function (todoTitle){
+                let element=document.createElement('div');
+                element.textContent=todoTitle;
+                let todoList=document.getElementById('todo-list');
+                todoList.appendChild(element);
+            });
+            }
+
+
+
+    </script>
+</body>
+</html>

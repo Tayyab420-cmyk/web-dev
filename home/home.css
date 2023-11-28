@@ -1,0 +1,100 @@
+body{
+    background-image: url(train-60539_1280.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.First{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    
+   
+    text-align: center;
+    margin-top: 20%;
+
+}
+.first1{
+    margin-left: 55%;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.first1:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color:lightblue;
+}
+
+.second{
+    margin-right: 55%;
+   width: 250px;
+   height: 20px;
+    border-radius: 5px;
+}
+.second:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color:lightblue;
+}
+.third{
+    margin-left: 55%;
+    width: 250px;
+    height: 20px;
+   border-radius: 5px;
+   
+}
+.third:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color:lightblue;
+}
+.fourth{
+    margin-right: 55%;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+   
+}
+.fourth:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color:lightblue;
+}
+.Second{
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    
+    padding: 20px;
+    
+}
+.five{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+
+}
+.five:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color:lightblue;
+}
+button{
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(37, 5, 141);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.6;
+    transition: 2s;
+    background-color: rgb(17, 14, 189)68, 0, 255);
+}
+
