@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 
@@ -8,7 +8,7 @@
     <button onclick="addTodo()">Add Todo</button>
     <div id="todo-list"></div>
     <script>
-         let todos =[{
+        const todos =[{
             title: "Buy Groceries",
             duedate:'2021-10-23'
             },{
@@ -27,31 +27,123 @@
         //     document.body.appendChild(element);
         // });
         render();
-        
-        
-        
         function addTodo(){
-            console.log('amish')
-            let textbox = document.getElementById('todo-title');
+            
+            const textbox = document.getElementById('todo-title');
+            const title=textbox.value;
+            const datepicker=document.getElementById('date-picker');
+            const dueDate=datepicker.value;
+
+        todos.push({
+            title: title,
+            duedate:dueDate
+        });
+            render();
+        }
+            function render(){
+                document.getElementById('todo-list').innerHTML='';
+
+            todos .forEach(function (todo){
+                const element=document.createElement('div');
+                element.innerText=todo.title + ' '+ todo.duedate;
+                const todoList=document.getElementById('todo-list');
+                todoList.appendChild(element);
+            });
+            }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="todo-title" type="text" />
+   <input id="date-picker" type="date" />
+    <button onclick="addTodo()">Add todo</button>
+    <div id="todo-list"></div>
+    <script>
+    let todos =[ {
+        title: 'Get groceries',
+        dueDate:'2021-10-04',
+        id:'id1'
+    },{
+            title: 'Wash Car',
+        dueDate:'2021-10-03',
+        id:'id2'
+    },{
+            title: 'Make Dinner',
+        dueDate:'2021-10-05',
+        id:'id3'
+        }];
+
+    render();
+
+    function addTodo()
+        {
+            let textbox=document.getElementById('todo-title');
             let title=textbox.value;
-            todos.push(title);
+            let datePicker=document.getElementById('date-picker');
+            let dueDate=datePicker.value;
+            let id ='' + new Date().getTime();
+           
+            // element.innerText=title;
+            // element.innerText=todos;
+            todos.push({
+                title: title,
+                dueDate: dueDate,
+                id:id
+            });
             render();
         }
 
 
-            function render(){
-                document.getElementById('todo-list').innerHTML='';
+        function deletetodo(event){
+           
+            const deletebutton=event.target;
+            const idtodelete=deletebutton.id;
+            
 
 
-            todos .forEach(function (todoTitle){
-                let element=document.createElement('div');
-                element.textContent=todoTitle;
+            todos=todos.filter(function(todo1){
+                if( todo.id === idtodelete ){
+                    return false;
+                }else{
+                    return true;
+                }
+            });
+        
+        render();
+        }function render() {
+            // element=document.createElement('div');
+            // element.innerText=todoTitle;
+            // document.body.appendChild(element);
+            document.getElementById('todo-list').innerHTML='';
+            todos.forEach(function (todo){
+                let element = document.createElement('div');
+                element.innerText= todo.title + ' ' + todo.dueDate;
+
+                const deletebutton=document.createElement('button');
+                deletebutton.innerText='Delete';
+                deletebutton.style='margin-left:12px;';
+                deletebutton.onclick= deletetodo;
+                deletebutton.id=todo.id;
+                console.log(todos);
+
+        
+                element.appendChild(deletebutton);
                 let todoList=document.getElementById('todo-list');
                 todoList.appendChild(element);
+
             });
-            }
-
-
+        }
+      
+        // console write document.body.innerhtml='hello'
 
     </script>
 </body>
