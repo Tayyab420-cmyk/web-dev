@@ -1,0 +1,241 @@
+body{
+    background-image: url(7LVg0KiH0gH.png);
+    background-repeat: no-repeat;
+    background-color: rgb(16, 15, 15);
+    background-size: 100% ;
+}
+.head{
+  display: flex;
+  width: 350px;
+  margin-top: 12%;
+  margin-left:39% ;
+  text-align: center;
+  gap: 0px; 
+}
+#font{
+  font-size: large;
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  
+}
+.middle {
+    display: flex;
+    width: 350px;
+    margin-left: 35%;
+    padding: 20px;
+    text-align: center;
+    margin-top: -2%;
+    gap: 0px;
+  }
+  .end{
+    display: flex;
+    text-align: center;
+    margin-left: 44%;
+
+    
+  }
+  #End{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  p{
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .login{
+    width: 93%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius:15px;
+    border-color: rgb(27, 27, 27);
+    border-color:rgb(27, 27, 27) ;
+    background-color: rgb(27, 27, 27);
+    color: white;
+  }
+  
+  .add {
+    width: 105%;
+    padding: 20px;
+    background-color:white;
+    color:gray;
+    border: none;
+    cursor:not-allowed;
+    border-radius: 10px;
+  }
+  .insta {
+    
+    width:25%;
+    height: 80px; 
+    display: flex;
+    margin-left: 36%;
+   justify-content: center;
+   align-items: center;
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px; 
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: rgb(21, 21, 21);
+    border-style: solid;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif
+   
+}
+.insta img {
+    width: 50px;
+    height: 50px;  
+}
+  .bar{
+    display: flex;
+    height: 180px;
+    width: 12%;
+    margin-top: -7%;
+    justify-content: right;
+    margin-left: 87%;
+    margin-right: 1%;
+   cursor: pointer;
+  }
+  .bar img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+  }
+  footer {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .foot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .foot{
+    color: gray;
+  }
+ @media(max-width: 852px){
+  .head{
+    display: flex;
+    width: 350px;
+    margin-top: 12%;
+    margin-left:39% ;
+    text-align: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    
+  }
+  #font{
+    font-size: large;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    
+  }
+  .middle {
+      display: flex;
+      width: 350px;
+      margin-left: 30%;
+      padding: 20px;
+      text-align: center;
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+    .end{
+      display: flex;
+      text-align: center;
+      margin-left: 44%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-right: 11%;
+      
+    }
+    #End{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: gray;
+      cursor: pointer;
+    }
+    
+    p{
+      color: white;
+      text-align: center;
+    
+    }
+    
+    .login{
+      width: 93%;
+      padding: 20px;
+      margin-bottom: 10px;
+      border-radius:15px;
+      border-color: rgb(27, 27, 27);
+      border-color:rgb(27, 27, 27) ;
+      background-color: rgb(27, 27, 27);
+      color: white;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    button {
+      width: 105%;
+      padding: 20px;
+      background-color:white;
+      color:gray;
+      border: none;
+      cursor:not-allowed;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .insta {
+      width:25%;
+      height: 80px; 
+      display: flex;
+      margin-left: 36%;
+      color: white; 
+      font-family: Arial, sans-serif;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      border-radius: 5px; 
+      cursor: pointer;
+      border-radius: 5px;
+      border-color: rgb(21, 21, 21);
+      border-style: solid;
+      flex-wrap: wrap;
+      display: none;
+     
+  }
+  #insta font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .insta img {
+      width: 50px;
+      height: 50px; 
+       
+  }
+  .bar img{
+    display: none; 
+  }
+  
+    footer {
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .foot{
+      color: gray;
+    }
+ }
+    
+
+ 
+
+ 
+ 
+
+  
