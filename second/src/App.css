@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.App{
+  font-style:inherit;
+  color: red;
+  font-size: larger;
+}
