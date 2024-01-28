@@ -65,11 +65,9 @@ a {
 }
 
 img {
-    
-  max-width: 70%;
-  height: min-content;
+  max-width: 100%;
+  height: auto;
   display: block;
-
 }
 
 /*===== CLASS CSS ===== */

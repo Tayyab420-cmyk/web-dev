@@ -1,0 +1,60 @@
+body{
+    
+    background-image: url("kris-atomic-3b2tADGAWnU-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+.main-heading{
+    color: rgb(241, 241, 7);
+    /* padding-left: 450px; */
+    text-align: center;
+    
+}
+.line{
+   /* margin-left: 500px; */
+   color: burlywood;
+   text-align: center;
+}
+ table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 30%;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            text-align: left;
+          
+            padding: 8px;
+        }
+
+        th {
+            background-color: #424040;
+            ;
+        }
+        .thh{
+            color: white;
+        }
+        #dfc{
+            background-color: blue;
+            color: white;
+        }
+        #sbft{
+            background-color: #424040;
+            color: white;
+        }
+        #rsbp{
+            background-color: red;
+            color: white;
+        }
+        #lsce{
+            background-color: yellow;
+            color: black;
+        }
+        #hgkgb{
+            background-color :green;
+            color: white;
+        }
